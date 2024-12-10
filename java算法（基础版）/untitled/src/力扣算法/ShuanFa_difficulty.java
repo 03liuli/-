@@ -3,8 +3,8 @@ package 力扣算法;
 public class ShuanFa_difficulty {
     public static void main(String[] args) {
         // 初始化两个已排序的数组 nums1 和 nums2
-        int[] nums1 = {1, 2, 3, 4};
-        int[] nums2 = {5, 6, 7, 8};
+        int[] nums1 = {1, 2, 3, 10,22,};
+        int[] nums2 = {35, 56, 117, 300,2322,2323,3433};
 
         // 调用 findMedianSortedArrays 方法，计算并输出两个排序数组的中位数
         System.out.println(findMedianSortedArrays(nums1, nums2));
